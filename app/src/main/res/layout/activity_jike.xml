@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:fxl="http://schemas.android.com/apk/res-auto"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <com.fxl.hencodersimulate.view.jike.JiKeView
+        android:id="@+id/jikeview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        fxl:number="209"/>
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_marginTop="30dp"
+        android:hint="输入数字"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+</LinearLayout>
